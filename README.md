@@ -1,5 +1,5 @@
-# We've Moved!
+# 我们已经移动了！
 
-Material Design Lite v2 has evolved into a new project: [Material Components for the web](https://github.com/material-components/material-components-web).
+Material Design Lite v2已发展成为一个新项目：[Web的Material组件](https://github.com/material-components/material-components-web)。
 
-Please visit us in [our new repository](https://github.com/material-components/material-components-web)!
+请访问[我们的新存储库](https://github.com/material-components/material-components-web)！
