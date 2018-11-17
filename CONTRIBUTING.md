@@ -25,7 +25,7 @@
 
 ## <a name="question"></a> 有疑问或问题？
 
-如果您对如何使用Material Design Lite有疑问，请将它们指向[StackOverflow] [stackoverflow]并使用`material-design-lite`标签。 我们也可以在GitHub问题上找到它们。
+如果您对如何使用Material Design Lite有疑问，请将它们指向[StackOverflow][stackoverflow]并使用`material-design-lite`标签。 我们也可以在GitHub问题上找到它们。
 
 如果您觉得我们错过了一些重要的文档，请随意提出问题，以便我们提供帮助。 这是一个让你入门的例子：
 
