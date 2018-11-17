@@ -63,13 +63,13 @@ You can request a new feature by submitting an issue to our [GitHub Repository][
 Here is a template to get you started:
 
 ```
-Is this a new component, or a missing feature in an existing one?
-Component name:
-Material Design spec URL for the component (if any):
+这是一个新组件，还是现有组件中缺少的功能？
+组件名称：
+组件的Material Design规范URL（如果有）：
 
-What does this component or feature allow you to do which isn’t possible at the moment?
+这个组件或功能允许您做什么，目前是不可能的？
 
-Please provide any URLs or screenshots of good examples of usage of this component or feature that you may have come across.
+请提供您可能遇到的此组件或功能的良好使用示例的任何URL或屏幕截图。
 ```
 
 If you would like to implement a new feature then consider what kind of change it is:
