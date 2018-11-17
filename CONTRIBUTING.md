@@ -31,23 +31,23 @@ If you feel that we're missing an important bit of documentation, feel free to
 file an issue so we can help. Here's an example to get you started:
 
 ```
-Component (if any):
+组件（如果有）：
 
-What are you trying to do or find out more about?
+您想做什么或了解更多信息？
 
-Where have you looked?
+您在哪里看？
 
-Where did you expect to find this information?
+您希望在哪里找到这些信息？
 ```
 
 Or, if you're looking for a new design template:
 
 ```
-Please provide a short summary of the template you’re looking for.
+请提供您正在寻找的模板的简短摘要。
 
-What makes this template interesting or challenging from a design perspective?
+是什么让这个模板从设计角度来看有趣或具有挑战性？
 
-Please provide any URLs to good examples of this type of page that you may have come across.
+请提供您可能遇到的此类网页的良好示例的任何网址。
 ```
 
 ## <a name="issue"></a> 发现了一个问题？
@@ -104,23 +104,23 @@ chances of your issue being dealt with quickly:
 Here's a template to get you started:
 
 ```
-MDL version:
-Browser:
-Browser version:
-Operating system:
-Operating system version:
-URL, if applicable (you can use a [codepen as a starting point][http://codepen.io/pen/def?fork=xGWgXa]):
+MDL版本：
+浏览器：
+浏览器版本：
+操作系统：
+操作系统版本：
+URL，如果适用（您可以使用[codepen作为起点] [http://codepen.io/pen/def?fork=xGWgXa]）：
 
-What steps will reproduce the problem:
-1.
-2.
-3.
+哪些步骤将重现该问题：
+1、
+2、
+3、
 
-What is the expected result?
+预期结果是什么？
 
-What happens instead of that?
+会发生什么而不是那个？
 
-Please provide any other information below, and attach a screenshot if possible.
+请在下面提供任何其他信息，并在可能的情况下附上屏幕截图。
 ```
 
 ### 提交拉取请求
