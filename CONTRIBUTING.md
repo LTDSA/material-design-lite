@@ -1,17 +1,17 @@
 
-# Contributing to Material Design Lite
+# 为Material Design Lite做贡献
 
-We'd love for you to contribute to our source code and to make Material Design Lite even better than it is today! Here are the guidelines we'd like you to follow:
+我们很乐意为您贡献我们的源代码，让Material Design Lite比现在更好！ 以下是我们希望您遵循的指南：
 
- - [Code of Conduct](#coc)
- - [Question or Problem?](#question)
- - [Issues and Bugs](#issue)
- - [Feature Requests](#feature)
- - [Submission Guidelines](#submit)
- - [Coding Rules](#rules)
- - [Signing the CLA](#cla)
+ - [行为守则](#coc)
+ - [疑问或问题？](#question)
+ - [问题和错误](#issue)
+ - [功能请求](#feature)
+ - [提交指南](#submit)
+ - [编码规则](#rules)
+ - [签署CLA](#cla)
 
-## <a name="coc"></a> Code of Conduct
+## <a name="coc"></a> 行为守则
 
 As contributors and maintainers of the Material Design Lite project, we pledge to respect everyone who contributes by posting issues, updating documentation, submitting pull requests, providing feedback in comments, and any other activities.
 
@@ -23,7 +23,7 @@ If any member of the community violates this code of conduct, the maintainers of
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please drop us a line at addyo@google.com.
 
-## <a name="question"></a> Got a Question or Problem?
+## <a name="question"></a> 有疑问或问题？
 
 If you have questions about how to use Material Design Lite, please direct these to [StackOverflow][stackoverflow] and use the `material-design-lite` tag. We are also available on GitHub issues.
 
@@ -50,14 +50,14 @@ What makes this template interesting or challenging from a design perspective?
 Please provide any URLs to good examples of this type of page that you may have come across.
 ```
 
-## <a name="issue"></a> Found an Issue?
+## <a name="issue"></a> 发现了一个问题？
 If you find a bug in the source code or a mistake in the documentation, you can help us by
 submitting an issue to our [GitHub Repository][github]. Even better you can submit a Pull Request
 with a fix.
 
 See [below](#submit) for some guidelines.
 
-## <a name="feature"></a> Want a Feature?
+## <a name="feature"></a> 想要一个功能？
 You can request a new feature by submitting an issue to our [GitHub Repository][github].
 
 Here is a template to get you started:
@@ -82,7 +82,7 @@ project.
 
 ## <a name="submit"></a> Submission Guidelines
 
-### Submitting an Issue
+### 提交问题
 Before you submit your issue search the archive, maybe your question was already answered.
 
 If your issue appears to be a bug, and hasn't been reported, open a new issue.
@@ -123,7 +123,7 @@ What happens instead of that?
 Please provide any other information below, and attach a screenshot if possible.
 ```
 
-### Submitting a Pull Request
+### 提交拉取请求
 Before you submit your pull request consider the following guidelines:
 
 * Search [GitHub](https://github.com/google/material-design-lite/pulls) for an open or closed Pull Request
@@ -174,7 +174,7 @@ Before you submit your pull request consider the following guidelines:
 
 That's it! Thank you for your contribution!
 
-#### After your pull request is merged
+#### 合并拉取请求后
 
 After your pull request is merged, you can safely delete your branch and pull the changes
 from the main (upstream) repository:
@@ -203,7 +203,7 @@ from the main (upstream) repository:
     git pull --ff upstream master
     ```
 
-## <a name="rules"></a> Coding Rules
+## <a name="rules"></a> 编码规则
 
 We generally follow the [Google JavaScript style guide][js-style-guide] with a few minor exceptions documented in our [JSCS configuration][jscs-config].
 
@@ -211,7 +211,7 @@ We generally follow the [Google JavaScript style guide][js-style-guide] with a f
 you find that you would prefer to automatically format your code to match our style guide, you can use the JSCS [autoformatting][autoformatting]
 feature.
 
-## <a name="cla"></a> Signing the CLA
+## <a name="cla"></a> 签署CLA
 
 Please sign our Contributor License Agreement (CLA) before sending pull requests. For any code
 changes to be accepted, the CLA must be signed. It's a quick process, we promise!
