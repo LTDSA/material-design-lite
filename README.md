@@ -6,52 +6,46 @@
 [![Gitter version](https://img.shields.io/gitter/room/gitterHQ/gitter.svg)](https://gitter.im/google/material-design-lite)
 [![Dependency Status](https://david-dm.org/google/material-design-lite.svg)](https://david-dm.org/google/material-design-lite)
 
-> An implementation of [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
-components in vanilla CSS, JS, and HTML.
+> 在vanilla CSS、JS和HTML中实现[Material Design](http://www.google.com/design/spec/material-design/introduction.html)组件。
 
-Material Design Lite (MDL) lets you add a Material Design look and feel to your
-static content websites. It doesn't rely on any JavaScript frameworks or
-libraries. Optimized for cross-device use, gracefully degrades in older
-browsers, and offers an experience that is accessible from the get-go.
+Material Design Lite（MDL）允许您为静态内容网站添加Material Design外观。 它不依赖于任何JavaScript框架或库。 针对跨设备使用进行了优化，在旧版浏览器中优雅地降级，并提供从一开始就可以访问的体验。
 
-> ### Limited support
+> ### 有限的支持
 
-> Material Design Lite is now in limited support, with development having moved to the
-> [Material Components for the web](https://github.com/material-components/material-components-web) repository.
+> Material Design Lite目前在有限的支持下，开发已经转移到了
+> [web的Material组件](https://github.com/material-components/material-components-web)存储库。
 
-> No further development is taking place in MDL by the core team, but we are happy to review PRs, fix critical bugs and
-> push out new releases. No breaking changes will be accepted.
+> 核心团队在MDL中没有进一步的发展，但我们很高兴审查PR，修复关键错误和
+> 推出新版本。 不接受任何重大变化。
 
-## Use MDL on your site?
+## 在您的网站上使用MDL？
 
-**This document is targeted at developers that will contribute to or compile
-MDL. If you are looking to use MDL on your website or web app please head to
+**本文档面向将参与或编译的开发人员
+MDL。 如果您希望在您的网站或网络应用程序上使用MDL，请前往
 [getmdl.io](http://getmdl.io).**
 
-## Browser Support
+## 浏览器支持
 
 
 | IE9 | IE10 | IE11 | Chrome | Opera | Firefox | Safari | Chrome (Android) | Mobile Safari |
 |-----|------|------|--------|-------|---------|--------|------------------|---------------|
 | B   | A    | A    | A      | A     | A       | A      | A                | A             |
 
-A-grade browsers are fully supported. B-grade browsers will gracefully degrade
-to our CSS-only experience.
+完全支持A级浏览器。 B级浏览器会优雅地降级到我们仅使用CSS的体验。
 
-### Download / Clone
+### 下载/克隆
 
-Clone the repo using Git:
+使用Git克隆存储库：
 
 ```bash
 git clone https://github.com/google/material-design-lite.git
 ```
 
-Alternatively you can [download](https://github.com/google/material-design-lite/archive/master.zip)
-this repository.
+或者，您可以[下载](https://github.com/google/material-design-lite/archive/master.zip)此存储库。
 
-Windows users, if you have trouble compiling due to line endings then make sure
-you configure git to checkout the repository with `lf` (unix) line endings. This
-can be achieved by setting `core.eol`.
+Windows用户，如果由于行结尾而无法编译，请确保
+配置git以使用`lf`（unix）行结尾检出存储库。 这个
+可以通过设置`core.eol`来实现。
 
 ```bash
 git config core.eol lf
@@ -60,30 +54,25 @@ git rm --cached -r .
 git reset --hard
 ```
 
-> Remember, the master branch is considered unstable. Do not use this in
-production. Use a tagged state of the repository, npm, or bower for stability!
+> 请记住，主分支被认为是不稳定的。 不要使用它生产。 使用存储库、npm或bower的标记状态来确保稳定性！
 
-## Feature requests
+## 功能请求
 
-MDL is currently in limited support mode, with no further development taking place by the core team.
-We are happy to accept and review pull requests for new functionality, however, as long as there are no breaking
-changes.
+MDL目前处于有限的支持模式，核心团队没有进一步的开发。
+我们很高兴接受并审查对新功能的拉取请求，只要没有中断变化。
 
-## Want to contribute?
+## 想贡献？
 
-If you found a bug, have any questions or want to contribute. Follow our
-[guidelines](https://github.com/google/material-design-lite/blob/mdl-1.x/CONTRIBUTING.md),
-and help improve the Material Design Lite. For more information visit our
-[wiki](https://github.com/google/material-design-lite/wiki).
+如果您发现了错误、有任何疑问或想要贡献。 关注我们的
+[指南](https://github.com/google/material-design-lite/blob/mdl-1.x/CONTRIBUTING.md)，并帮助改进Material Design Lite。 
+有关更多信息，请访问我们的[wiki](https://github.com/google/material-design-lite/wiki)。
 
-Please use the default branch, `mdl-1.x`.
+请使用默认分支`mdl-1.x`。
 
-Take note that [Material Components for Web](https://github.com/material-components/material-components-web), which is MDL v2, is under early Alpha stages (which means everything is a moving target, and we can change anything at any moment). Use with caution.
+请注意，[web的Material组件](https://github.com/material-components/material-components-web)，即MDL v2，处于早期Alpha阶段（这意味着一切都是移动目标，我们可以随时改变任何事情）。谨慎使用。
 
-However, we would absolutely love to have people testing MCW and provide feedback about their experiences using it, especially integrating with other frameworks and libraries.
+但是，我们绝对喜欢让人们测试MCW并提供有关使用它的经验的反馈，特别是与其他框架和库集成。
 
-## License
+## 许可证
 
-© Google, 2015. Licensed under an
-[Apache-2](https://github.com/google/material-design-lite/blob/master/LICENSE)
-license.
+© Google，2015。根据[Apache-2](https://github.com/google/material-design-lite/blob/master/LICENSE)许可证获得许可。
