@@ -13,22 +13,21 @@
 
 ## <a name="coc"></a> 行为守则
 
-As contributors and maintainers of the Material Design Lite project, we pledge to respect everyone who contributes by posting issues, updating documentation, submitting pull requests, providing feedback in comments, and any other activities.
+作为Material Design Lite项目的贡献者和维护者，我们承诺通过发布问题，更新文档，提交拉取请求，提供评论反馈以及任何其他活动来尊重所有贡献者。
 
-Communication through any of Material Design Lite's channels (GitHub, StackOverflow, Google+, Twitter, etc.) must be constructive and never resort to personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.
+通过任何Material Design Lite的渠道（GitHub、StackOverflow、Google +、Twitter等）进行交流必须具有建设性，不得诉诸于人身攻击，拖钓，公共或私人骚扰，侮辱或其他非专业行为。
 
-We promise to extend courtesy and respect to everyone involved in this project regardless of gender, gender identity, sexual orientation, disability, age, race, ethnicity, religion, or level of experience. We expect anyone contributing to the Material Design Lite project to do the same.
+无论性别、性别认同、性取向、残疾、年龄、种族、民族、宗教或经验水平如何，我们承诺向参与该项目的每个人提供礼貌和尊重。我们希望任何有助于Material Design Lite项目的人都这样做。
 
-If any member of the community violates this code of conduct, the maintainers of the Material Design Lite project may take action, removing issues, comments, and PRs or blocking accounts as deemed appropriate.
+如果社区的任何成员违反了此行为准则，Material Design Lite项目的维护者可以采取行动，删除问题，评论和PR或阻止帐户视为合适。
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please drop us a line at addyo@google.com.
+如果您受到或目击不可接受的行为或有任何其他疑虑，请发送电子邮件至addyo@google.com。
 
 ## <a name="question"></a> 有疑问或问题？
 
-If you have questions about how to use Material Design Lite, please direct these to [StackOverflow][stackoverflow] and use the `material-design-lite` tag. We are also available on GitHub issues.
+如果您对如何使用Material Design Lite有疑问，请将它们指向[StackOverflow] [stackoverflow]并使用`material-design-lite`标签。 我们也可以在GitHub问题上找到它们。
 
-If you feel that we're missing an important bit of documentation, feel free to
-file an issue so we can help. Here's an example to get you started:
+如果您觉得我们错过了一些重要的文档，请随意提出问题，以便我们提供帮助。 这是一个让你入门的例子：
 
 ```
 组件（如果有）：
@@ -40,7 +39,7 @@ file an issue so we can help. Here's an example to get you started:
 您希望在哪里找到这些信息？
 ```
 
-Or, if you're looking for a new design template:
+或者，如果您正在寻找新的设计模板：
 
 ```
 请提供您正在寻找的模板的简短摘要。
@@ -51,9 +50,8 @@ Or, if you're looking for a new design template:
 ```
 
 ## <a name="issue"></a> 发现了一个问题？
-If you find a bug in the source code or a mistake in the documentation, you can help us by
-submitting an issue to our [GitHub Repository][github]. Even better you can submit a Pull Request
-with a fix.
+如果您在源代码中发现错误或文档中存在错误，您可以通过向我们的[GitHub存储库][github]提交问题来帮助我们。更好的是你可以提交一个Pull Request
+修复。
 
 See [below](#submit) for some guidelines.
 
