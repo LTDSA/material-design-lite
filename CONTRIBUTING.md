@@ -50,15 +50,14 @@
 ```
 
 ## <a name="issue"></a> 发现了一个问题？
-如果您在源代码中发现错误或文档中存在错误，您可以通过向我们的[GitHub存储库][github]提交问题来帮助我们。更好的是你可以提交一个Pull Request
-修复。
+如果您在源代码中发现错误或文档中存在错误，您可以通过向我们的[GitHub存储库][github]提交问题来帮助我们。更好的是你可以提交一个拉取请求修复。
 
-See [below](#submit) for some guidelines.
+请参阅[下面](#submit)的一些指南。
 
 ## <a name="feature"></a> 想要一个功能？
-You can request a new feature by submitting an issue to our [GitHub Repository][github].
+您可以通过向我们的[GitHub存储库][github]提交问题来请求新功能。
 
-Here is a template to get you started:
+这是一个可以帮助您入门的模板：
 
 ```
 这是一个新组件，还是现有组件中缺少的功能？
@@ -70,36 +69,30 @@ Here is a template to get you started:
 请提供您可能遇到的此组件或功能的良好使用示例的任何URL或屏幕截图。
 ```
 
-If you would like to implement a new feature then consider what kind of change it is:
+如果您想要实现新功能，请考虑它是什么样的更改：
 
-* **Major Changes** that you wish to contribute to the project should be discussed first on our
-[issue tracker][] so that we can better coordinate our efforts, prevent
-duplication of work, and help you to craft the change so that it is successfully accepted into the
-project.
-* **Small Changes** can be crafted and submitted to the [GitHub Repository][github] as a Pull Request.
+* **主要变更** 您希望为项目做出贡献的主要变更应首先在我们的[问题跟踪器][]上进行讨论，以便我们能够更好地协调我们的工作，防止重复工作，并帮助您制定变更，以便成功接受项目。
+* **小更改** 可以制作小更改并将其作为拉取请求提交给[GitHub存储库][github]。
 
-## <a name="submit"></a> Submission Guidelines
+## <a name="submit"></a> 提交指南
 
 ### 提交问题
-Before you submit your issue search the archive, maybe your question was already answered.
+在您提交问题之前搜索存档，也许您的问题已经得到解答。
 
-If your issue appears to be a bug, and hasn't been reported, open a new issue.
-Help us to maximize the effort we can spend fixing issues and adding new
-features, by not reporting duplicate issues.  Providing the following information will increase the
-chances of your issue being dealt with quickly:
+如果您的问题似乎是一个错误，并且尚未报告，请打开一个新问题。
+通过不报告重复问题，帮助我们最大限度地减少修复问题和添加新功能所需的工作量。 提供以下信息将增加您快速处理问题的机会：
 
-* **Overview of the Issue** - if an error is being thrown a non-minified stack trace helps
-* **Motivation for or Use Case** - explain why this is a bug for you
-* **Material Design Lite Version(s)** - is it a regression?
-* **Browsers and Operating System** - is this a problem with all browsers or only IE9?
-* **Reproduce the Error** - provide a live example (using JSBin) or a unambiguous set of steps.
-* **Related Issues** - has a similar issue been reported before?
-* **Suggest a Fix** - if you can't fix the bug yourself, perhaps you can point to what might be
-  causing the problem (line of code or commit)
+* **问题概述** - 如果抛出错误，则非缩小堆栈跟踪会有所帮助
+* **动机或用例** - 解释为什么这是您的错误
+* **Material Design Lite版本** - 它是回归吗？
+* **浏览器和操作系统** - 这是所有浏览器还是只有IE9的问题？
+* **重现错误** - 提供一个实例（使用JSBin）或一组明确的步骤。
+* **相关问题** - 有没有报道过类似的问题？
+* **建议修复** - 如果你不能自己修复bug，也许你可以指出可能导致问题的原因（代码行或提交）
 
-**If you get help, help others. Good karma rulez!**
+**如果你得到帮助，请帮助他人。好业力统治！**
 
-Here's a template to get you started:
+这是一个让您入门的模板：
 
 ```
 MDL版本：
@@ -122,80 +115,76 @@ URL，如果适用（您可以使用[codepen作为起点] [http://codepen.io/pen
 ```
 
 ### 提交拉取请求
-Before you submit your pull request consider the following guidelines:
+在提交拉取请求之前，请考虑以下准则：
 
-* Search [GitHub](https://github.com/google/material-design-lite/pulls) for an open or closed Pull Request
-  that relates to your submission. You don't want to duplicate effort.
-* Please sign our [Contributor License Agreement (CLA)](#cla) before sending pull
-  requests. We cannot accept code without this.
-* Make your changes in a new git branch:
+* 在[GitHub](https://github.com/google/material-design-lite/pulls)中搜索与您的提交相关的开放或已关闭的拉取请求。您不想重复努力。
+* 请在发送拉取请求之前签署我们的[贡献者许可协议（CLA）](#cla)。 没有这个我们不能接受代码。
+* 在新的git分支中进行更改：
 
      ```shell
      git checkout -b my-fix-branch master
      ```
 
-* Create your patch, **including appropriate test cases**.
-* Follow our [Coding Rules](#rules).
-* Run the full Material Design Lite test suite (`gulp test`),
-  and ensure that all tests pass.
-* Avoid checking in files that shouldn't be tracked (e.g `node_modules`, `gulp-cache`, `.tmp`, `.idea`). We recommend using a [global .gitignore](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore) for this.
-* Make sure **not** to include a recompiled version of the files found in `/css` and `/js` as part of your PR. We will generate these automatically.
-* Commit your changes using a descriptive commit message.
+* 创建补丁，**包括适当的测试用例**。
+* 按照我们的[编码规则](#rules)。
+* 运行完整的Material Design Lite测试套件（`gulp test`），并确保所有测试都通过。
+* 避免检入不应被跟踪的文件（例如`node_modules`，`gulp-cache`，`。tmp`，`.idea`）。 我们建议使用[global .gitignore](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)。
+* 确保**不要**在`/css`和`/js`中包含重新编译的文件版本作为PR的一部分。 我们将自动生成这些。
+* 使用描述性提交消息提交更改。
 
      ```shell
      git commit -a
      ```
-  Note: the optional commit `-a` command line option will automatically "add" and "rm" edited files.
+  注意：可选的commit`-a`命令行选项将自动“添加”和“移除”编辑的文件。
 
-* Build your changes locally to ensure all the tests pass:
+* 在本地构建更改以确保所有测试都通过：
 
     ```shell
    gulp
     ```
 
-* Push your branch to GitHub:
+* 将您的分支推送到GitHub：
 
     ```shell
     git push origin my-fix-branch
     ```
 
-* In GitHub, send a pull request to `material-design-lite:master`.
-* If we suggest changes then:
-  * Make the required updates.
-  * Re-run the Material Design Lite test suite to ensure tests are still passing.
-  * Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
+* 在GitHub中，向`material-design-lite：master`发送一个拉取请求。
+* 如果我们建议更改：
+  * 进行必要的更新。
+  * 重新运行Material Design Lite测试套件以确保测试仍在通过。
+  * 重新启动您的分支并强制推送到您的GitHub存储库（这将更新您的拉取请求）：
 
     ```shell
     git rebase master -i
     git push origin my-fix-branch -f
     ```
 
-That's it! Thank you for your contribution!
+就是这样！感谢您的贡献！
 
 #### 合并拉取请求后
 
-After your pull request is merged, you can safely delete your branch and pull the changes
-from the main (upstream) repository:
+合并拉取请求后，您可以安全地删除分支并从主（上游）存储库中提取更改：
 
-* Delete the remote branch on GitHub either through the GitHub web UI or your local shell as follows:
+* 通过GitHub Web UI或本地shell删除GitHub上的远程分支，如下所示：
 
     ```shell
     git push origin --delete my-fix-branch
     ```
 
-* Check out the master branch:
+* 查看主分支：
 
     ```shell
     git checkout master -f
     ```
 
-* Delete the local branch:
+* 删除本地分支：
 
     ```shell
     git branch -D my-fix-branch
     ```
 
-* Update your master with the latest upstream version:
+* 使用最新的上游版本更新您的主服务器：
 
     ```shell
     git pull --ff upstream master
@@ -203,22 +192,18 @@ from the main (upstream) repository:
 
 ## <a name="rules"></a> 编码规则
 
-We generally follow the [Google JavaScript style guide][js-style-guide] with a few minor exceptions documented in our [JSCS configuration][jscs-config].
+我们通常遵循[Google JavaScript样式指南][js-style-guide]，我们的[JSCS配置][jscs-config]中记录了一些小的例外情况。
 
-[JSCS](http://jscs.info) is a tool for linting code against a style guide and has plugins available for both editors and build tools. Should
-you find that you would prefer to automatically format your code to match our style guide, you can use the JSCS [autoformatting][autoformatting]
-feature.
+feature.[JSCS](http://jscs.info)是一个用于根据样式指南绘制代码的工具，并且具有可用于编辑器和构建工具的插件。 如果您发现自己希望自动格式化代码以匹配我们的样式指南，则可以使用JSCS [autoformatting][autoformatting]功能。
 
 ## <a name="cla"></a> 签署CLA
 
-Please sign our Contributor License Agreement (CLA) before sending pull requests. For any code
-changes to be accepted, the CLA must be signed. It's a quick process, we promise!
+在发送拉取请求之前，请签署我们的贡献者许可协议（CLA）。 要接受任何代码更改，必须签署CLA。 这是一个快速的过程，我们保证！
 
-* For individuals we have a [simple click-through form][individual-cla].
-* For corporations we'll need you to
-  [print, sign and one of scan+email, fax or mail the form][corporate-cla].
+* 对于个人，我们有[简单的点击表格][individual-cla]。
+* 对于公司，我们需要您[打印，签名以及扫描+电子邮件，传真或邮寄表格][corporate-cla]。
 
-*This guide was inspired by the [AngularJS contribution guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md).*
+*本指南的灵感来自[AngularJS贡献指南](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md)。*
 
 [github]: https://github.com/google/material-design-lite
 [issue tracker]: https://github.com/google/material-design-lite/issues
