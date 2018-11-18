@@ -194,7 +194,7 @@ URL，如果适用（您可以使用[codepen作为起点] [http://codepen.io/pen
 
 我们通常遵循[Google JavaScript样式指南][js-style-guide]，我们的[JSCS配置][jscs-config]中记录了一些小的例外情况。
 
-feature.[JSCS](http://jscs.info)是一个用于根据样式指南绘制代码的工具，并且具有可用于编辑器和构建工具的插件。 如果您发现自己希望自动格式化代码以匹配我们的样式指南，则可以使用JSCS [autoformatting][autoformatting]功能。
+feature.[JSCS](http://jscs.info)是一个用于根据样式指南绘制代码的工具，并且具有可用于编辑器和构建工具的插件。 如果您发现自己希望自动格式化代码以匹配我们的样式指南，则可以使用JSCS [自动套用格式][autoformatting]功能。
 
 ## <a name="cla"></a> 签署CLA
 
